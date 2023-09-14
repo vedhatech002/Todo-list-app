@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    background-color: #A0C1D1;
+
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #232C33;
+    color: #DADFF7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+main {
+
+    padding: 1.5rem;
+    color: #232C33;
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.alert {
+    padding: 10px 20px 10px 10px;
+    background-color: #29a746;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    text-align: left;
+    border-left: 5px solid green;
+    font-weight: 500;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert button {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+main>div>h1 {
+    font-size: 18px;
+}
+
+main>div>p {
+    font-size: 14px;
+}
+
+.input-container {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #B5B2C2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputFood {
+    padding: 5px 10px;
+    width: 100%;
+    outline: none;
+    border-style: solid;
+    border-color: #5A7D7C;
+    border-width: 1.5px;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.input-btn {
+    padding: 5px 12px;
+    width: 5rem;
+    background-color: #232C33;
+    color: #DADFF7;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+section {
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #B5B2C2;
+}
+
+#no-list {
+    color: grey;
+}
+
+#no-list img {
+    width: 240px;
+    opacity: 0.8;
+}
+
+.food-container {
+
+    list-style: none;
+    text-align: left;
+}
+
+.food-item {
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+    border: 1px solid #5a7d7c6b;
+    border-radius: 4px;
+    margin: 10px 0.4rem;
+    color: #5A7D7C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.food-item:hover {
+    background-color: #232C33;
+    color: #DADFF7;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#food-list-statstics {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    color: #4f6d6c;
+}

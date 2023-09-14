@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-Dom</title>
+    <script src="https://kit.fontawesome.com/f04d9810c1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--   onclick="alert('header element')" -->
+    <header>
+        👨🏽‍💻My ToDo Lists
+    </header>
+    <main id="main">
+        <!-- alert -->
+        <!-- <div class="alert">
+           <div class="alert-message">
+            <strong>✅ Successful!</strong>
+                Food is Updated!
+           </div>
+           <button type="button" >X</button>
+        </div> -->
+        <!-- alert -->
+        <div class="input-container">
+            <input type="text" name="inp-food" id="input-food" placeholder="task to add...." class="inputFood">
+            <button id="input-btn" class="input-btn">Save</button>
+        </div>
+        <section>
+            <div id="food-list-statstics"></div>
+            <ul id="food-container" class="food-container">
+            </ul>
+            <div id="no-list">
+                <img src="https://cdni.iconscout.com/illustration/premium/thumb/empty-state-concept-3428212-2902554.png"
+                    alt="not found">
+                <h6>Create Your Food Items</h6>
+            </div>
+        </section>
+
+        <script src="app.js"></script>
+
+</body>
+
+</html>
